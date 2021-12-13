@@ -9,7 +9,7 @@ import { SearchComponent } from './search/search.component';
   declarations: [
     AppComponent,
     HomepageComponent,
-    SearchComponent
+    SearchComponent,
   ],
   imports: [
     BrowserModule
