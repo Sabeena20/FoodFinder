@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
   title="Welcome to FoodFinder";
-  buttons = ['Paleo','Ketogenic','Gluten Free','Vegan','Vegetarian','Dairy Free','Organic','Nut free','Kosher'];
+  buttons = ['Paleo','Ketogenic','Gluten Free','Vegan','Vegetarian','Dairy Free','Kosher'];
 
   constructor() { }
 
