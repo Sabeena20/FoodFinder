@@ -1,7 +1,7 @@
 [
     {
         "id":"P1",
-        "product Name":"Rao's Marinara Sauce",
+        "name":"Rao's Marinara Sauce",
         "desc":"Bring home the famous taste of Rao’s Homemade® Marinara Sauce",
         "price":7.99,
         "category":"Pantry Essentials",
@@ -10,7 +10,7 @@
     },
     {
         "id":"P2",
-        "product Name":"Primal Kitchen Avocado Oil Mayo",
+        "name":"Primal Kitchen Avocado Oil Mayo",
         "desc":"Paleo mayonnasise",
         "price":8.49,
         "category":"Pantry Essentials",
@@ -19,7 +19,7 @@
     },
     {
         "id":"P3",
-        "product Name":"Pacific Natural Foods Organic Chicken Bone Broth",
+        "name":"Pacific Natural Foods Organic Chicken Bone Broth",
         "desc":"Organic Chicken bone Broth",
         "price":4.49,
         "category":"Pantry Essentials",
@@ -28,7 +28,7 @@
     },
     {
         "id":"P4",
-        "product Name":"Applegate turkey burgers",
+        "name":"Applegate turkey burgers",
         "desc":"organic turkey burgers",
         "price":5.99,
         "category":"Frozen Foods",
@@ -37,7 +37,7 @@
     },
     {
         "id":"P5",
-        "product Name":"Siete Grain free Tortilla chips",
+        "name":"Siete Grain free Tortilla chips",
         "desc":"Grain free Tortilla Chips",
         "price":4.99,
         "category":"snacks",
@@ -46,7 +46,7 @@
     },
     {
         "id":"P6",
-        "product Name":"LesserEvil Popcorn",
+        "name":"LesserEvil Popcorn",
         "desc":"organic popcorn with himalayan pink salt",
         "price":3.99,
         "category":"snacks",
@@ -55,7 +55,7 @@
     },
     {
         "id":"P7",
-        "product Name":"Chosen pure avocado oil",
+        "name":"Chosen pure avocado oil",
         "desc":"organic avocado oil",
         "price":9.49,
         "category":"Pantry Essentials",
@@ -64,7 +64,7 @@
     },
     {
         "id":"P8",
-        "product Name":"Alexia Fries",
+        "name":"Alexia Fries",
         "desc":"organic potatoe fries",
         "price":4.50,
         "category":"Frozen Foods",
@@ -73,7 +73,7 @@
     },
     {
         "id":"P9",
-        "product Name":"GoodPop freezer pops",
+        "name":"GoodPop freezer pops",
         "desc":"organic freezer pops",
         "price":8.00,
         "category":"Frozen Foods",
@@ -82,7 +82,7 @@
     },
     {
         "id":"P10",
-        "product Name":"4th & Heart Ghee",
+        "name":"4th & Heart Ghee",
         "desc":"Clarified butter",
         "price":7.00,
         "category":"Pantry Essentials",
@@ -91,7 +91,7 @@
     },
     {
         "id":"P11",
-        "product Name":"Chicken pesto",
+        "name":"Chicken pesto",
         "desc":"keto friendly chicken pesto with vegatables",
         "price":12.00,
         "category":"Frozen Foods",
@@ -99,7 +99,7 @@
     },
     {
         "id":"P12",
-        "product Name":"Organic Roasted Premium Seaweed Snack",
+        "name":"Organic Roasted Premium Seaweed Snack",
         "desc":"Seaweed snacks",
         "price":4.39,
         "category":"snacks",
@@ -108,7 +108,7 @@
     },
     {
         "id":"P13",
-        "product Name":"Original Refrigerated Protein Bar",
+        "name":"Original Refrigerated Protein Bar",
         "desc":"Dark Chocolate Chip Peanut Butter protein bar",
         "price":1.99,
         "category":"snacks",
@@ -117,7 +117,7 @@
     },
     {
         "id":"P14",
-        "product Name":"Bubbies Sauerkraut",
+        "name":"Bubbies Sauerkraut",
         "desc":"Fermented Sauerkraut",
         "price":7.49,
         "category":"Pantry Essentials",
@@ -126,7 +126,7 @@
     },
     {
         "id":"P15",
-        "product Name":"Daiya Supereme pizza",
+        "name":"Daiya Supereme pizza",
         "desc":"Gluten free pizza",
         "category":"Frozen Foods",
         "diet":["Dairy-free","Gluten-Free"],

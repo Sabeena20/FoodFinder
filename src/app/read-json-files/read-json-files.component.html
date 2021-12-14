@@ -1,0 +1,38 @@
+<h2>Read Local JSON file data using HttpClient</h2>
+<table id="products">
+	<tr>
+		<th>ID</th>
+		<th>Name</th>
+		<th>Description</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Diet</th>
+        <th>Brand</th>
+	</tr>
+	<tr *ngFor="let product of products" class="form-table">
+		<td>{{product.id}}</td>
+		<td>{{product.name}}</td>
+        <td>{{product.desc}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.category}}</td>
+        <td>{{product.diet}}</td>
+        <td>{{product.brand}}</td>
+
+
+
+
+	</tr>
+</table>
+
+
+
+<!-- <h1>JSON files</h1>
+<div id="products" class="container" *ngFor="let product of productsData?.products">
+    <p>{{product.id}}</p>
+    <h1>{{product.Name}}</h1>
+    <h1>{{product.desc}}</h1>
+    <h1>{{product.price}}</h1>
+    <h1>{{product.category}}</h1>
+    <h1>{{product.diet}}</h1>
+    <h1>{{product.brand}}</h1>
+</div> -->
