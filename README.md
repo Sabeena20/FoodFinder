@@ -1,8 +1,23 @@
-# FoodFinder
+# Project title
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+The title of my project is "Food Finder".It is a web application where user can shop based on their diet.I got the motivation to do this project is because I would like to know if my food contains anything which
 
-## Development server
+is not in my diet.
+
+I will be developing this application using AngularJS, MySQL and C#
+
+## Project Description
+
+This web application will have a landing page that consists of all the diets to choose. The users will be able to select a diet. The result page will have the products which is the selected diet. The result page will have a filtering option. The users will be able to filter based on a DIET, CATEGORY, AND PRICE. The landing page will also have a "Search function".The users will enter the product name or type of the product.
+
+Features:
+
+-food products based on users unique diet.
+-a global search function will let users search for a product or a product type.
+-filtering option will filters the results.
+-this web application might have a link to shop the products from the result page.
+
+## Running the application
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -22,6 +37,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

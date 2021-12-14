@@ -20,4 +20,6 @@ export class ReadJsonFilesComponent implements OnInit {
       console.log(this.products.length);
     })
   }
+
+ 
 }
