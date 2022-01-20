@@ -8,10 +8,22 @@ import { Product } from '../product';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  
-  constructor() { }
+  products: Product[] = [];
+  filterTerm: string;
+  toShow : boolean = false;
+  constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
+  }
+  searchFilter() {
+    
+    this.products = [];
+    console.log(this.filterTerm);
+    this.httpClient.get("assets/data/products.json").subscribe((data: Product[]) => {
+      this.products = data;
+      this.toShow = true;
+      console.log(this.products);
+    });
   }
 
 }

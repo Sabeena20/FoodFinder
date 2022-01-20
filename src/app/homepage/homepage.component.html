@@ -1,29 +1,55 @@
 <div class="container">
-    <!-- <div class="col-xs-12" style="text-align:center">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    </head>
+    <div class="col-xs-12" style="text-align:center" id = "header">
         <h1>
-             {{ title }}!
+            {{ title }}
         </h1>
-    </div> -->
-    <app-navbar></app-navbar>
-    <!-- <app-search></app-search> -->
-    <div>
-        <!-- <app-read-json-files></app-read-json-files> -->
     </div>
+    <!-- <app-navbar></app-navbar> -->
+    <app-search></app-search>
+
     <div class="row">
         <h3>Please select your diet to view the products...</h3>
         <div class="col-xs-8">
             <button (click)="clickedADiet($event,'Paleo')" type="button" class="btn">Paleo</button>
-            <button (click)="clickedADiet($event,'Ketogenic')"type="button" class="btn">Ketogenic</button>
-            <button (click)="clickedADiet($event,'Gluten-free')"type="button" class="btn">Gluten-Free</button>
-            <button (click)="clickedADiet($event,'Vegan')"type="button" class="btn">Vegan</button>
-            <button (click)="clickedADiet($event,'Vegetarian')"type="button" class="btn">Vegetarian</button>
-            <button (click)="clickedADiet($event,'Dairy-free')"type="button" class="btn">Dairy-Free</button>
-            <button (click)="clickedADiet($event,'Kosher')"type="button" class="btn">Kosher</button>
-            <!-- <button type="button" class="btn">All..</button> -->
+            <button (click)="clickedADiet($event,'Ketogenic')" type="button" class="btn">Ketogenic</button>
+            <button (click)="clickedADiet($event,'Gluten-free')" type="button" class="btn">Gluten-Free</button>
+            <button (click)="clickedADiet($event,'Vegan')" type="button" class="btn">Vegan</button>
+            <button (click)="clickedADiet($event,'Vegetarian')" type="button" class="btn">Vegetarian</button>
+            <button (click)="clickedADiet($event,'Dairy-free')" type="button" class="btn">Dairy-Free</button>
+            <button (click)="clickedADiet($event,'Kosher')" type="button" class="btn">Kosher</button>
+            <button (click)="clickedAll()" type="button" class="btn">All..</button>
         </div>
     </div>
     <div class=row [hidden]="!toShow">
-        <table id="products"> 
+        <label for="filter">Filter By Price:</label>
+        <select name="filter" id="price">
+            <option value="$1-$5">$1-$5</option>
+            <option value="$5-$10">$5-$10</option>
+            <option value="$10-$15">$10-$15</option>
+        </select>
+        <label for="filter">Filter by Brand:</label>
+        <select name="filter" id="brand">
+            <option value="Rao's">Rao's</option>
+            <option value="Chosen">Chosen</option>
+            <option value="Siette">Siette</option>
+            <option value="Lesser Evil">Lesser Evil</option>
+        </select>
+        <label for="filter">Filter by diet:</label>
+        <select name="filter" id="diet">
+            <option value="Paleo">Paleo</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Gluten-Free">Gluten-Free</option>
+        </select>
+    </div>
+
+    <div class=row [hidden]="!toShow">
+        <table id="products">
             <tr>
                 <th>ID</th>
                 <th>Name</th>
@@ -43,6 +69,7 @@
                 <td>{{product.brand}}</td>
             </tr>
         </table>
+        
     </div>
 
 </div>

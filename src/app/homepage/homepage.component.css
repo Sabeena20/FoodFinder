@@ -9,9 +9,24 @@ button{
     background-color: aliceblue;
     border-color: coral;
     padding: 15px 32px;
-    min-width:250px;
+    min-width:200px;
     font-size: medium;
 }
-.body{
-    background-color: #ff6f61;
+body{
+    /* background-color: #ff6f61; */
+    background: rgb(255,111,97);
+background: linear-gradient(0deg, rgba(255,111,97,1) 0%, rgba(255,255,255,0.7959558823529411) 100%);
+}
+#price {
+    width: 20%;
+}
+#brand {
+    width: 20%;
+}
+#diet{
+    width:20%;
+}
+#header{
+    font-family: 'Neonderthaw', cursive;
+    font-size:x-large;
 }

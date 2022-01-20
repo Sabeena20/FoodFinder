@@ -9,10 +9,11 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-  title = "Welcome to FoodFinder";
+  title = "FoodFinder";
   buttons = ['Paleo', 'Ketogenic', 'Gluten Free', 'Vegan', 'Vegetarian', 'Dairy Free', 'Kosher'];
   products: Product[] = [];
   toShow: Boolean = false;
+  toShowDiet:Boolean = false;
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
@@ -29,7 +30,14 @@ export class HomepageComponent implements OnInit {
     })
   }
 
- 
- 
+ clickedAll() {
+  this.products = [];
+  // console.log(this.filterTerm);
+  this.httpClient.get("assets/data/products.json").subscribe((data: Product[]) => {
+    this.products = data;
+    this.toShow = true;
+    this.toShowDiet = true;
+ });
+}
 }
 

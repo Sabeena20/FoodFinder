@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product';
 import { HttpClient } from '@angular/common/http';
-// import { Pipe,PipeTransform } from '@angular/core'
+import { HomepageComponent } from '../homepage/homepage.component';
+
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -9,7 +10,6 @@ import { HttpClient } from '@angular/common/http';
 })
 export class NavbarComponent implements OnInit {
   products: Product[] = [];
-  // searchTerm: string;
   filterTerm: string;
   toShow : boolean = false;
 
@@ -19,6 +19,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
   searchFilter() {
+    
     this.products = [];
     console.log(this.filterTerm);
     this.httpClient.get("assets/data/products.json").subscribe((data: Product[]) => {

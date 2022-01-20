@@ -1,14 +1,13 @@
 <div class="col-xs-12">
 <div class="input-group">
     <div class="form-outline">
-      <input type="search"  id="form1" class="form-control"  />
-      <label class="form-label" for="form1">Search</label>
+      <input type="search"  id="form1" class="form-control" [(ngModel)] ="filterTerm" />
+      <!-- <label class="form-label" for="form1">Search</label> -->
     </div>
-    <button type="button" class="btn" (click) ="searchFilter()">
-      <i class="fas fa-search"></i>
-    </button>
+    <button (click) ="searchFilter()"type="submit">Search</button>      
+    <i class="fas fa-search"></i>
   </div>
-  <div class=row>
+  <div class=container [hidden]="!toShow">
     <table id="products"> 
         <tr>
             <th>ID</th>
@@ -19,7 +18,7 @@
             <th>Diet</th>
             <th>Brand</th>
         </tr>
-        <tr *ngFor="let product of products" | filter:filterTerm>
+        <tr *ngFor="let product of products | filter:filterTerm">
             <td>{{product.id}}</td>
             <td>{{product.name}}</td>
             <td>{{product.desc}}</td>
