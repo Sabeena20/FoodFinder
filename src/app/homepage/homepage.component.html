@@ -1,20 +1,27 @@
 <div class="container">
+
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Playfair+Display:ital@1&display=swap"
+            rel="stylesheet">
     </head>
-    <div class="col-xs-12" style="text-align:center" id = "header">
-        <h1>
-            {{ title }}
-        </h1>
-    </div>
-    <!-- <app-navbar></app-navbar> -->
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <span class="fs-4"><strong>Food Finder</strong></span>
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <a class="me-3 py-2 text-dark text-decoration-none" href="#">Shop</a>
+                <a class="me-3 py-2 text-dark text-decoration-none" href="#">Sign-up</a>
+            </nav>
+        </div>
+
+    </header>
+
     <app-search></app-search>
 
-    <div class="row">
-        <h3>Please select your diet to view the products...</h3>
-        <div class="col-xs-8">
+    <div class="col-xs-12" id="buttons">
+        <h1 style="font-family: 'Playfair Display', serif;">What diets are you interested in?</h1>
+        <div class="row-xs-8">
             <button (click)="clickedADiet($event,'Paleo')" type="button" class="btn">Paleo</button>
             <button (click)="clickedADiet($event,'Ketogenic')" type="button" class="btn">Ketogenic</button>
             <button (click)="clickedADiet($event,'Gluten-free')" type="button" class="btn">Gluten-Free</button>
@@ -39,37 +46,11 @@
             <option value="Siette">Siette</option>
             <option value="Lesser Evil">Lesser Evil</option>
         </select>
-        <label for="filter">Filter by diet:</label>
-        <select name="filter" id="diet">
-            <option value="Paleo">Paleo</option>
-            <option value="Vegan">Vegan</option>
-            <option value="Vegetarian">Vegetarian</option>
-            <option value="Gluten-Free">Gluten-Free</option>
-        </select>
     </div>
 
     <div class=row [hidden]="!toShow">
-        <table id="products">
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-                <th>Category</th>
-                <th>Diet</th>
-                <th>Brand</th>
-            </tr>
-            <tr *ngFor="let product of products" class="form-table">
-                <td>{{product.id}}</td>
-                <td>{{product.name}}</td>
-                <td>{{product.desc}}</td>
-                <td>{{product.price}}</td>
-                <td>{{product.category}}</td>
-                <td>{{product.diet}}</td>
-                <td>{{product.brand}}</td>
-            </tr>
-        </table>
-        
+        <app-product-card-test></app-product-card-test>
+
     </div>
 
 </div>

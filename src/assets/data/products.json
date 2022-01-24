@@ -6,7 +6,8 @@
         "price":7.99,
         "category":"Pantry Essentials",
         "diet":["Paleo","Vegan","Vegetarian","Dairy-free"],
-        "brand":"Rao's"
+        "brand":"Rao's",
+        "image":"assets/images/rao's.jpg"
     },
     {
         "id":"P2",
@@ -15,7 +16,8 @@
         "price":8.49,
         "category":"Pantry Essentials",
         "diet":["Paleo","Dairy-free","Gluten-free","Ketogenic","Vegetarian","Kosher"],
-        "brand":"Primal Kitchen"
+        "brand":"Primal Kitchen",
+        "image":"assets/images/mayo.jpg"
     },
     {
         "id":"P3",
@@ -24,7 +26,9 @@
         "price":4.49,
         "category":"Pantry Essentials",
         "diet":["Paleo","Dairy-free","Ketogenic"],
-        "brand":"Pacific Foods"
+        "brand":"Pacific Foods",
+        "image":"assets/images/chickenbroth.jpg"
+
     },
     {
         "id":"P4",
@@ -33,7 +37,9 @@
         "price":5.99,
         "category":"Frozen Foods",
         "diet":["Paleo","Dairy-free","Gluten-free","Ketogenic"],
-        "brand":"Applegate"
+        "brand":"Applegate",
+        "image":"assets/images/applegate.jpg"
+
     },
     {
         "id":"P5",
@@ -42,7 +48,9 @@
         "price":4.99,
         "category":"snacks",
         "diet":["Paleo","Vegan","Vegetarian","Dairy-free","Gluten-free"],
-        "brand":"Siete"
+        "brand":"Siete",
+        "image":"assets/images/siete2.jpg"
+
     },
     {
         "id":"P6",
@@ -51,7 +59,9 @@
         "price":3.99,
         "category":"snacks",
         "diet":["Vegan","Vegetarian","Dairy-free","Gluten-free","Kosher"],
-        "brand":"LesserEvil"
+        "brand":"LesserEvil",
+        "image":"assets/images/lesserEvil.jpg"
+
     },
     {
         "id":"P7",
@@ -60,7 +70,9 @@
         "price":9.49,
         "category":"Pantry Essentials",
         "diet":["Vegan","Vegetarian","Paleo","Ketogenic","Dairy-free","Kosher"],
-        "brand":"Chosen"
+        "brand":"Chosen",
+        "image":"assets/images/chosen.jpg"
+
     },
     {
         "id":"P8",
@@ -69,7 +81,9 @@
         "price":4.50,
         "category":"Frozen Foods",
         "diet":["Vegan","Vegetarian","Dairy-free","Kosher"],
-        "brand":"Alexia"
+        "brand":"Alexia",
+        "image":"assets/images/fries.png"
+
     },
     {
         "id":"P9",
@@ -78,7 +92,8 @@
         "price":8.00,
         "category":"Frozen Foods",
         "diet":["Vegetarian","Vegan","Kosher","Dairy-free"],
-        "brand":"GoodPop"
+        "brand":"GoodPop",
+        "image":"assets/images/freezerpops.jpg"
     },
     {
         "id":"P10",
@@ -87,7 +102,8 @@
         "price":7.00,
         "category":"Pantry Essentials",
         "diet":["Kosher","Gluten-Free","Ketogenic","Vegetarian"],
-        "brand":"4th & heart"
+        "brand":"4th & heart",
+        "image":"assets/images/ghee.png"
     },
     {
         "id":"P11",
@@ -95,7 +111,9 @@
         "desc":"keto friendly chicken pesto with vegatables",
         "price":12.00,
         "category":"Frozen Foods",
-        "diet":["Dairy-free","Gluten-Free","Ketogenic","Paleo"]
+        "diet":["Dairy-free","Gluten-Free","Ketogenic","Paleo"],
+        "brand":"Primal Kitchen",
+        "image":"assets/images/chickenpesto.jpeg"
     },
     {
         "id":"P12",
@@ -104,7 +122,8 @@
         "price":4.39,
         "category":"snacks",
         "diet":["Dairy-free","Gluten-Free","Ketogenic","Vegetarian","Vegan"],
-        "brand":"GimMe"
+        "brand":"GimMe",
+        "image":"assets/images/seaweed.jpg"
     },
     {
         "id":"P13",
@@ -113,7 +132,8 @@
         "price":1.99,
         "category":"snacks",
         "diet":["Gluten-free","Kosher","Vegetarian"],
-        "brand":"Perfect bar"
+        "brand":"Perfect bar",
+        "image":"assets/images/perfect.jpg"
     },
     {
         "id":"P14",
@@ -122,7 +142,8 @@
         "price":7.49,
         "category":"Pantry Essentials",
         "diet":["Gluten-free","Ketogenic","Dairy-free","Paleo","Vegan","Vegetarian","Kosher"],
-        "brand":"Bubbies"
+        "brand":"Bubbies",
+        "image":"assets/images/bubbies.jpg"
     },
     {
         "id":"P15",
@@ -130,7 +151,8 @@
         "desc":"Gluten free pizza",
         "category":"Frozen Foods",
         "diet":["Dairy-free","Gluten-Free"],
-        "brand":"Daiya"
+        "brand":"Daiya",
+        "image":"assets/images/daiya.jpeg"
     }
 
 ]

@@ -5,17 +5,15 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { SearchComponent } from './search/search.component';
 import {HttpClientModule} from '@angular/common/http';
-import { ReadJsonFilesComponent } from './read-json-files/read-json-files.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { FormsModule } from '@angular/forms';
+import { ProductCardTestComponent } from './product-card-test/product-card-test.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     SearchComponent,
-    ReadJsonFilesComponent,
-    NavbarComponent,
+    ProductCardTestComponent
   ],
   imports: [
     BrowserModule,
