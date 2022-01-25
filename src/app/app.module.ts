@@ -7,7 +7,7 @@ import { SearchComponent } from './search/search.component';
 import {HttpClientModule} from '@angular/common/http';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { FormsModule } from '@angular/forms';
-import { ProductCardTestComponent } from './product-card-test/product-card-test.component';
+import { ProductCardTestComponent } from './product-card/product-card-test.component';
 @NgModule({
   declarations: [
     AppComponent,

@@ -7,7 +7,8 @@
         "category":"Pantry Essentials",
         "diet":["Paleo","Vegan","Vegetarian","Dairy-free"],
         "brand":"Rao's",
-        "image":"assets/images/rao's.jpg"
+        "image":"assets/images/rao's.jpg",
+        "link":"https://amzn.to/3KGrWEK"
     },
     {
         "id":"P2",
@@ -17,7 +18,10 @@
         "category":"Pantry Essentials",
         "diet":["Paleo","Dairy-free","Gluten-free","Ketogenic","Vegetarian","Kosher"],
         "brand":"Primal Kitchen",
-        "image":"assets/images/mayo.jpg"
+        "image":"assets/images/mayo.jpg",
+        "link":"https://amzn.to/3AukRm2"
+
+
     },
     {
         "id":"P3",
@@ -27,7 +31,8 @@
         "category":"Pantry Essentials",
         "diet":["Paleo","Dairy-free","Ketogenic"],
         "brand":"Pacific Foods",
-        "image":"assets/images/chickenbroth.jpg"
+        "image":"assets/images/chickenbroth.jpg",
+        "link":"https://amzn.to/3H8wX6Y"
 
     },
     {
@@ -38,7 +43,8 @@
         "category":"Frozen Foods",
         "diet":["Paleo","Dairy-free","Gluten-free","Ketogenic"],
         "brand":"Applegate",
-        "image":"assets/images/applegate.jpg"
+        "image":"assets/images/applegate.jpg",
+        "link":"https://bit.ly/3r1E1N6"
 
     },
     {
@@ -49,7 +55,8 @@
         "category":"snacks",
         "diet":["Paleo","Vegan","Vegetarian","Dairy-free","Gluten-free"],
         "brand":"Siete",
-        "image":"assets/images/siete2.jpg"
+        "image":"assets/images/siete2.jpg",
+        "link":"https://amzn.to/3H3yWcr"
 
     },
     {
@@ -60,7 +67,8 @@
         "category":"snacks",
         "diet":["Vegan","Vegetarian","Dairy-free","Gluten-free","Kosher"],
         "brand":"LesserEvil",
-        "image":"assets/images/lesserEvil.jpg"
+        "image":"assets/images/lesserEvil.jpg",
+        "link":"https://amzn.to/3FZtPJc"
 
     },
     {
@@ -71,7 +79,8 @@
         "category":"Pantry Essentials",
         "diet":["Vegan","Vegetarian","Paleo","Ketogenic","Dairy-free","Kosher"],
         "brand":"Chosen",
-        "image":"assets/images/chosen.jpg"
+        "image":"assets/images/chosen.jpg",
+        "link":"https://amzn.to/3H22cjU"
 
     },
     {
@@ -82,7 +91,8 @@
         "category":"Frozen Foods",
         "diet":["Vegan","Vegetarian","Dairy-free","Kosher"],
         "brand":"Alexia",
-        "image":"assets/images/fries.png"
+        "image":"assets/images/fries.png",
+        "link":"https://bit.ly/3H6bqvt"
 
     },
     {
@@ -93,7 +103,8 @@
         "category":"Frozen Foods",
         "diet":["Vegetarian","Vegan","Kosher","Dairy-free"],
         "brand":"GoodPop",
-        "image":"assets/images/freezerpops.jpg"
+        "image":"assets/images/freezerpops.jpg",
+        "link":"https://amzn.to/3FUtR53"
     },
     {
         "id":"P10",
@@ -103,7 +114,8 @@
         "category":"Pantry Essentials",
         "diet":["Kosher","Gluten-Free","Ketogenic","Vegetarian"],
         "brand":"4th & heart",
-        "image":"assets/images/ghee.png"
+        "image":"assets/images/ghee.png",
+        "link":"https://amzn.to/3rIFCWU"
     },
     {
         "id":"P11",
@@ -113,7 +125,8 @@
         "category":"Frozen Foods",
         "diet":["Dairy-free","Gluten-Free","Ketogenic","Paleo"],
         "brand":"Primal Kitchen",
-        "image":"assets/images/chickenpesto.jpeg"
+        "image":"assets/images/chickenpesto.jpeg",
+        "link":"https://amazon.com/dp/B084ZSR1XL/"
     },
     {
         "id":"P12",
@@ -123,7 +136,8 @@
         "category":"snacks",
         "diet":["Dairy-free","Gluten-Free","Ketogenic","Vegetarian","Vegan"],
         "brand":"GimMe",
-        "image":"assets/images/seaweed.jpg"
+        "image":"assets/images/seaweed.jpg",
+        "link":"https://amzn.to/3G09pQd"
     },
     {
         "id":"P13",
@@ -133,7 +147,8 @@
         "category":"snacks",
         "diet":["Gluten-free","Kosher","Vegetarian"],
         "brand":"Perfect bar",
-        "image":"assets/images/perfect.jpg"
+        "image":"assets/images/perfect.jpg",
+        "link":"https://amzn.to/3fXZIXW"
     },
     {
         "id":"P14",
@@ -143,7 +158,8 @@
         "category":"Pantry Essentials",
         "diet":["Gluten-free","Ketogenic","Dairy-free","Paleo","Vegan","Vegetarian","Kosher"],
         "brand":"Bubbies",
-        "image":"assets/images/bubbies.jpg"
+        "image":"assets/images/bubbies.jpg",
+        "link":"https://amzn.to/33IvXYM"
     },
     {
         "id":"P15",
@@ -152,7 +168,8 @@
         "category":"Frozen Foods",
         "diet":["Dairy-free","Gluten-Free"],
         "brand":"Daiya",
-        "image":"assets/images/daiya.jpeg"
+        "image":"assets/images/daiya.jpeg",
+        "link":"https://bit.ly/3rQRuGE"
     }
 
 ]
