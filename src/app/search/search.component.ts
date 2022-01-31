@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Product } from '../product';
+import { ProductNew } from '../ProductNew';
 
 @Component({
   selector: 'app-search',
@@ -8,7 +9,7 @@ import { Product } from '../product';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  products: Product[] = [];
+  products: ProductNew[] = [];
   filterTerm: string;
   toShow : boolean = false;
   constructor(private httpClient: HttpClient) { }
@@ -19,7 +20,7 @@ export class SearchComponent implements OnInit {
     
     this.products = [];
     console.log(this.filterTerm);
-    this.httpClient.get("assets/data/products.json").subscribe((data: Product[]) => {
+    this.httpClient.get("assets/data/products.json").subscribe((data: ProductNew[]) => {
       this.products = data;
       this.toShow = true;
       console.log(this.products);

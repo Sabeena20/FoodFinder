@@ -4,7 +4,7 @@ export interface Product{
     desc:string;
     price:number;
     category:string;
-    diet:string;
+    diet:string[];
     brand:string;
 
 

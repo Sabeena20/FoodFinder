@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product';
 import { HttpClient } from '@angular/common/http';
+import { ProductNew } from '../ProductNew';
 
 @Component({
   selector: 'app-homepage',
@@ -10,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 export class HomepageComponent implements OnInit {
   title = "FoodFinder";
   buttons = ['Paleo', 'Ketogenic', 'Gluten Free', 'Vegan', 'Vegetarian', 'Dairy Free', 'Kosher'];
-  products: Product[] = [];
+  products: ProductNew[] = [];
   toShow: Boolean = false;
   toShowDiet: Boolean = false;
   constructor(private httpClient: HttpClient) { }
@@ -19,11 +20,13 @@ export class HomepageComponent implements OnInit {
   }
   clickedADiet(event, selectedDiet) {
     this.products = [];
-    this.httpClient.get("assets/data/products.json").subscribe((data: Product[]) => {
+    this.httpClient.get("https://localhost:44393/api/Values").subscribe((data: ProductNew[]) => {
       for (let i = 0; i < data.length; i++) {
         if (data[i].diet.includes(selectedDiet, 0)) {
+          data[i].image = 'assets/images/' + data[i].image ;
           this.toShow = true;
           this.products.push(data[i]);
+          
         }
       }
     })
@@ -32,7 +35,10 @@ export class HomepageComponent implements OnInit {
   clickedAll() {
     this.products = [];
     // console.log(this.filterTerm);
-    this.httpClient.get("assets/data/products.json").subscribe((data: Product[]) => {
+    this.httpClient.get("https://localhost:44393/api/Values").subscribe((data: ProductNew[]) => {
+      for (let i = 0; i < data.length; i++) {
+              data[i].image = 'assets/images/' + data[i].image ;
+            }
       this.products = data;
       this.toShow = true;
       this.toShowDiet = true;

@@ -17,7 +17,7 @@
 
     </header>
 
-    <app-search></app-search>
+    
 
     <div class="col-xs-12" id="buttons">
         <h1 style="font-family: 'Playfair Display', serif;">What diets are you interested in?</h1>
@@ -32,7 +32,7 @@
             <button (click)="clickedAll()" type="button" class="btn">All..</button>
         </div>
     </div>
-    <div class=row [hidden]="!toShow">
+    <!-- <div class=row [hidden]="!toShow">
         <label for="filter">Filter By Price:</label>
         <select name="filter" id="price">
             <option value="$1-$5">$1-$5</option>
@@ -46,10 +46,13 @@
             <option value="Siette">Siette</option>
             <option value="Lesser Evil">Lesser Evil</option>
         </select>
-    </div>
+    </div> -->
+    <!-- <div class="row">
+        <app-search></app-search>
+    </div> -->
 
     <div class=row [hidden]="!toShow">
-        <app-product-card-test></app-product-card-test>
+        <app-product-card-test [items]="products"></app-product-card-test>
 
     </div>
 

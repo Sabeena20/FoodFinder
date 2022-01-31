@@ -1,0 +1,248 @@
+[
+    {
+      "id": 1,
+      "name": "Rao's Marinara Sauce",
+      "description": "Rao's Homemade® Marinara Sauce",
+      "price": 7.99,
+      "image": "rao's",
+      "category": "Pantry Essentials",
+      "brand": "Rao's",
+      "link": "https://amzn.to/3KGrWEK",
+      "diet": [
+        "Paleo",
+        "Vegan ",
+        "Vegetarian ",
+        "Dairy-free"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Primal Kitchen Avocado Oil Mayo",
+      "description": "Paleo Mayonnaise",
+      "price": 8.49,
+      "image": "mayo",
+      "category": "Pantry Essentials",
+      "brand": "Primal Kitchen",
+      "link": "https://amzn.to/3AukRm2",
+      "diet": [
+        "Paleo",
+        "Dairy-free",
+        "Gluten-free",
+        "Ketogenic",
+        "Kosher",
+        "Vegetarian "
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pacific Natural Foods Organic Chicken Bone Broth",
+      "description": "Organic chicken bone broth",
+      "price": 4.49,
+      "image": "chickenbroth",
+      "category": "Pantry Essentials",
+      "brand": "Pacific Foods",
+      "link": "https://amzn.to/3H8wX6Y",
+      "diet": [
+        "Paleo",
+        "Dairy-free",
+        "Ketogenic"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Applegate turkey burgers",
+      "description": "turkey burgers",
+      "price": 5.99,
+      "image": "applegate",
+      "category": "Frozen Foods",
+      "brand": "Applegate",
+      "link": "https://bit.ly/3r1E1N6",
+      "diet": [
+        "Paleo",
+        "Dairy-free",
+        "Gluten-free",
+        "Ketogenic"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Siete Grain free Tortilla chips",
+      "description": "Grain free tortilla chips",
+      "price": 3.99,
+      "image": "siete2",
+      "category": "Snacks",
+      "brand": "Siete",
+      "link": "https://amzn.to/3H3yWcr",
+      "diet": [
+        "Paleo",
+        "Vegan ",
+        "Vegetarian ",
+        "Dairy-free",
+        "Gluten-free"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "LesserEvil Popcorn",
+      "description": "organic popcorn",
+      "price": 4,
+      "image": "lesserevil",
+      "category": "Snacks",
+      "brand": "LesserEvil",
+      "link": "https://amzn.to/3FZtPJc",
+      "diet": [
+        "Vegan ",
+        "Vegetarian ",
+        "Dairy-free",
+        "Gluten-free",
+        "Kosher"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "organic avocado oil",
+      "description": "Avocado oil",
+      "price": 8.75,
+      "image": "chosen",
+      "category": "Pantry Essentials",
+      "brand": "Chosen",
+      "link": "https://amzn.to/3H22cjU",
+      "diet": [
+        "Vegan ",
+        "Vegetarian ",
+        "Paleo",
+        "Ketogenic",
+        "Dairy-free",
+        "Kosher"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Alexia Fries",
+      "description": "organic fries",
+      "price": 4.5,
+      "image": "fries",
+      "category": "Frozen Foods",
+      "brand": "Alexia",
+      "link": "https://bit.ly/3H6bqvt",
+      "diet": [
+        "Vegan ",
+        "Vegetarian ",
+        "Dairy-free",
+        "Kosher"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "GoodPop freezer pops\r\n",
+      "description": "organic freezer pops",
+      "price": 8,
+      "image": "freezerpops",
+      "category": "Frozen Foods",
+      "brand": "GoodPop",
+      "link": "https://amzn.to/3FUtR53",
+      "diet": [
+        "Vegan ",
+        "Vegetarian ",
+        "Kosher",
+        "Dairy-free"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "4th & Heart Ghee",
+      "description": "clarified butter",
+      "price": 7,
+      "image": "ghee",
+      "category": "Pantry Essentials",
+      "brand": "4th & Heart",
+      "link": "https://amzn.to/3rIFCWU",
+      "diet": [
+        "Kosher",
+        "Gluten-free",
+        "Ketogenic",
+        "Vegetarian "
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Chicken Pesto",
+      "description": "chicken pesto ",
+      "price": 12,
+      "image": "chickenpesto",
+      "category": "Frozen Foods",
+      "brand": "Primal Kitchen",
+      "link": "https://amazon.com/dp/B084ZSR1XL/",
+      "diet": [
+        "Dairy-free",
+        "Gluten-free",
+        "Ketogenic",
+        "Paleo"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Organic Roasted Premium Seaweed Snack",
+      "description": "Organic seaweed",
+      "price": 3,
+      "image": "seaweed",
+      "category": "Snacks",
+      "brand": "GimMe",
+      "link": "https://amzn.to/3G09pQd",
+      "diet": [
+        "Dairy-free",
+        "Gluten-free",
+        "Ketogenic",
+        "Vegan ",
+        "Vegetarian "
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Original Refrigerated Protein Bar",
+      "description": "Protein bar",
+      "price": 2,
+      "image": "perfect",
+      "category": "Snacks",
+      "brand": "Perfect bar",
+      "link": "https://amzn.to/3fXZIXW",
+      "diet": [
+        "Gluten-free",
+        "Kosher",
+        "Vegetarian "
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Bubbies Sauerkraut",
+      "description": "Fermented Sauerkraut",
+      "price": 7.49,
+      "image": "bubbies",
+      "category": "Pantry Essentials",
+      "brand": "Bubbies",
+      "link": "https://amzn.to/33IvXYM",
+      "diet": [
+        "Paleo",
+        "Kosher",
+        "Vegan ",
+        "Vegetarian ",
+        "Gluten-free",
+        "Ketogenic",
+        "Dairy-free"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Daiya Supereme pizza",
+      "description": "Gluten free pizza",
+      "price": 4.99,
+      "image": "daiya",
+      "category": "Frozen Foods",
+      "brand": "Daiya",
+      "link": "https://bit.ly/3rQRuGE",
+      "diet": [
+        "Dairy-free",
+        "Gluten-free"
+      ]
+    }
+  ]

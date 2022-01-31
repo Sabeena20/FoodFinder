@@ -2,7 +2,7 @@
     {
         "id":"P1",
         "name":"Rao's Marinara Sauce",
-        "desc":"Bring home the famous taste of Rao’s Homemade® Marinara Sauce",
+        "desc":"Rao's Homemade® Marinara Sauce",
         "price":7.99,
         "category":"Pantry Essentials",
         "diet":["Paleo","Vegan","Vegetarian","Dairy-free"],
@@ -165,6 +165,7 @@
         "id":"P15",
         "name":"Daiya Supereme pizza",
         "desc":"Gluten free pizza",
+        "price":"4.99",
         "category":"Frozen Foods",
         "diet":["Dairy-free","Gluten-Free"],
         "brand":"Daiya",
