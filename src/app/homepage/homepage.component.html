@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" [hidden]="!isLoggedIn">
 
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -6,19 +6,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Playfair+Display:ital@1&display=swap"
             rel="stylesheet">
     </head>
-    <header>
-        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-            <span class="fs-4"><strong>Food Finder</strong></span>
-            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                <a class="me-3 py-2 text-dark text-decoration-none" href="#">Shop</a>
-                <a class="me-3 py-2 text-dark text-decoration-none" href="#">Sign-up</a>
-            </nav>
-        </div>
-
-    </header>
-
-    
-
     <div class="col-xs-12" id="buttons">
         <h1 style="font-family: 'Playfair Display', serif;">What diets are you interested in?</h1>
         <div class="row-xs-8">
@@ -29,27 +16,9 @@
             <button (click)="clickedADiet($event,'Vegetarian')" type="button" class="btn">Vegetarian</button>
             <button (click)="clickedADiet($event,'Dairy-free')" type="button" class="btn">Dairy-Free</button>
             <button (click)="clickedADiet($event,'Kosher')" type="button" class="btn">Kosher</button>
-            <button (click)="clickedAll()" type="button" class="btn">All..</button>
+            <button (click)="clickedAll()" type="button" class="btn">All Diets</button>
         </div>
     </div>
-    <!-- <div class=row [hidden]="!toShow">
-        <label for="filter">Filter By Price:</label>
-        <select name="filter" id="price">
-            <option value="$1-$5">$1-$5</option>
-            <option value="$5-$10">$5-$10</option>
-            <option value="$10-$15">$10-$15</option>
-        </select>
-        <label for="filter">Filter by Brand:</label>
-        <select name="filter" id="brand">
-            <option value="Rao's">Rao's</option>
-            <option value="Chosen">Chosen</option>
-            <option value="Siette">Siette</option>
-            <option value="Lesser Evil">Lesser Evil</option>
-        </select>
-    </div> -->
-    <!-- <div class="row">
-        <app-search></app-search>
-    </div> -->
 
     <div class=row [hidden]="!toShow">
         <app-product-card-test [items]="products"></app-product-card-test>

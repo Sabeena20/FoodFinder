@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4">
+    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+      <a (click)="signUp()" style="cursor:pointer"><b>Sign Up</b></a>
+    </nav>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 [hidden] ="isSignUp">Login</h1>
+  <h1 [hidden] ="!isSignUp">Sign Up</h1>
+  <form #userForm="ngForm" (ngSubmit)="onFormSubmit(userForm)">
+    <!-- EMAIL -->
+    <label for="uname" [hidden]="!isSignUp"><b>Email</b></label>
+    <input type="text" [hidden]="!isSignUp" placeholder="Enter Email" name="email" [(ngModel)]="user.email"
+      #email="ngModel">
+
+    <!-- USERNAME VALIDATION -->
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required minlength="4" [(ngModel)]="user.username"
+      #name="ngModel">
+    <div *ngIf="name.errors?.required && userForm.submitted && !isValidFormSubmitted" [ngClass]="'error'">
+      Username is required.
+    </div>
+    <div>
+      <!-- PASSWORD VALIDATION -->
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required minlength="5"
+        [(ngModel)]="user.password" #psw="ngModel">
+      <!-- PASSWORD ERRORS -->
+      <div *ngIf="psw.errors?.required && userForm.submitted && !isValidFormSubmitted" [ngClass]="'error'">
+        Password is required.
+      </div>
+      <label for="uname" [hidden]="!isSignUp"><b>Retype Password</b></label>
+      <input type="password" placeholder="Retype Password" [hidden]="!isSignUp" name="retype_password"
+        retype_password="ngModel">
+      <!-- LOGIN -->
+      <button type="submit" [hidden]="isSignUp" (click)="onLogin()">Login</button>
+    </div>
+    <div class="xs-col-6" [hidden]="!isSignUp">
+      <button type="button" class="signupbtn" (click)="register()">Register</button>
+    </div>
+    <!-- <div class = "xs-col-6" [hidden] ="isSignUp">
+      <button type="button" (click)="signUp" class ="signUp">Create Account</button>
+    </div> -->
+    <div class="xs-col-6" [hidden]="!isSignUp">
+      <button (click)="clickedCancel()" type="button" class="cancelbtn">Cancel</button>
+    </div>
+    </form>

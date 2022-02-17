@@ -1,7 +1,19 @@
 <html>
 
 <body>
-  <app-homepage></app-homepage>
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <span class="fs-4"><strong>Food Finder</strong></span>
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="me-3 py-2 text-dark text-decoration-none" (click)="logout()" style="cursor:pointer"><b>Logout</b></a> 
+            <!-- <a class="me-3 py-2 text-dark text-decoration-none" href="#"><b>Cart(0)</b></a> -->
+        </nav>
+    </div>
+  </div>
+
+  <!-- <app-homepage></app-homepage>
+  <app-user-account></app-user-account> -->
+  <router-outlet></router-outlet>
   <footer>&copy; 2022 Food Finder</footer>
 </body>
 
